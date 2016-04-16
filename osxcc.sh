@@ -9,7 +9,7 @@ read OPCAO
 	
 	if [ $OPCAO == 's' ]; then 
 
- 		echo "Apagando arquivos"
+ 		echo "Excluindo arquivos"
 
 		cd ~/Library/Caches
 		rm -rf *
