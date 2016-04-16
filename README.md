@@ -5,10 +5,10 @@
 
 
 ## Como utilizar a ferramenta: 
-1. Salve o arquivo ccc_ptBR.sh em seu computador
+1. Salve o arquivo osxcc.sh em seu computador
 2. Abra o Terminal
 3. Navegue até o diretório que contém o arquivo baixado. 
-4. Dê permissões de execução com o seguinte comando: > chmod +x ccc_ptBR.sh 
-5. Execute o script: > ./ccc_ptBR.sh 
+4. Dê permissões de execução com o seguinte comando: >$ chmod +x osxcc.sh 
+5. Execute o script: >$ ./osxcc.sh 
 6. Aproveite :D 
 
