@@ -1,7 +1,7 @@
 # OSX Cache Clean
 ###### versão 0.0.1.1 / version 0.0.1.1
 ###### Clean cache aplication files from Apple OSX! Improve your Mac performance                                                                                        !
-###### Limpe arquivos de "cache" de aplicativos de seu OSX! Ganhe espaço e desem                                                                                        penho!
+###### Limpe arquivos de "cache" de aplicativos de seu OSX! Ganhe espaço e desempenho!                                                                                
 =============================
 
 ## How to use this tool:
