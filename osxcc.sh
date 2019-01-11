@@ -7,18 +7,19 @@ INI=`du -hsc ~/Library/Caches | awk '{ print $1}'`
 AvailableSpace=$(df -h / | tail -1 | awk '{print $4}')
 
 # Run 
-echo "Verificando o volume de dados contifos no diretório de cache de seu usuário" 
+echo "* Verifying files in apps cache directory" 
 echo " "
-echo "Espaço atual disponível em disco $AvailableSpace"
-read -p "Deseja excluir $INI de dados em seu dispositivo? s/N " -n2 OPCAO
+echo "* Available space in the disk $AvailableSpace"
+echo " "
+read -p "* Do you want to remove $INI of space in your disk? y/N: " -n2 OPTION
 echo " "
 
-	if [ $OPCAO == 's' ]; then 
- 		echo "Excluindo arquivos"
+	if [ $OPTION == 'y' ]; then 
+ 		echo "Deleting files"
 			cd ~/Library/Caches
 			rm -rf * 2>/dev/null
 		echo " "
-		echo "Você liberou $INI de dados e seu disco agora tem $AvailableSpace"
+		echo "You removed $INI of files and now you have $AvailableSpace of available space in your disk. Thank you!"
 	else 
-		echo "Você optou por não remover os arquivos." 
+		echo "Canceled." 
 	fi
