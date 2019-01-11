@@ -1,11 +1,11 @@
 # OSX Cache Clean
-###### version 0.0.1.1 / versão 0.0.1.1
-###### Clean cache aplication files from Apple OSX! Improve your Mac performance                                                                                        !
+###### version 0.1.19.2.1
+###### Clean cache aplication files from Apple OSX! Improve your Mac performance!
 ###### Limpe arquivos de "cache" de aplicativos de seu OSX! Ganhe espaço e desempenho!                                                                                
 =============================
 
 ## How to use this tool:
-1. Download the osxcc.sh file
+1. Download the __osxcc.sh__ file
 2. Open the terminal app
 3. Browse to your download directory
 4. Give execution permission to the scritp: chmod +x osxcc.sh
