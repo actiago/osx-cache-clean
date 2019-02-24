@@ -1,5 +1,5 @@
 # Simple OSX Cache Clean
-###### version 0.1.19.2.1
+###### version 0.0.2.1
 #### Clean aplications cache files from Apple OSX.
 
 ## How to use:
