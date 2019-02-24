@@ -3,7 +3,7 @@
 # Author https://github.com/cegohub 
 
 # Vars
-INI=`du -hsc ~/Library/Caches | awk '{ print $1}'`
+INI=`du -hsc ~/Library/Caches | awk 'NR==1{print $1}'`
 AvailableSpace=$(df -h / | tail -1 | awk '{print $4}')
 
 # Run 

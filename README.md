@@ -1,21 +1,48 @@
-# OSX Cache Clean
+# Simple OSX Cache Clean
 ###### version 0.1.19.2.1
-###### Clean cache aplication files from Apple OSX! Improve your Mac performance!
-###### Limpe arquivos de "cache" de aplicativos de seu OSX! Ganhe espaço e desempenho!                                                                                
-=============================
+#### Clean aplications cache files from Apple OSX.
 
-## How to use this tool:
-1. Download the __osxcc.sh__ file
-2. Open the terminal app
-3. Browse to your download directory
-4. Give execution permission to the scritp: chmod +x osxcc.sh
-5. Run the script: ./osxcc.sh
-6. Enjoy :smiley:
+## How to use:
+1. Clone this repository
 
-## Como utilizar a ferramenta:
-1. Baixe o arquivo __osxcc.sh__
-2. Abra o Terminal
-3. Navegue até o diretório que contém o arquivo baixado.
-4. Dê permissões de execução com o seguinte comando: $ chmod +x osxcc.sh
-5. Execute o script: $ ./osxcc.sh
-6. Aproveite :smiley:
+```bash
+    git clone git@github.com:cegohub/osx_cache_clean.git
+```
+
+2. Browse to `osx_cache_clean` directory
+
+```bash
+    cd osx_cache_clean
+```
+
+3. Add execution permission to `osxcc.sh` file
+
+```bash
+    chmod +x osxcc.sh
+```
+
+Add to add to `.bashrc` or `.zshrc` alias
+
+bashrc:
+```bash
+    alias clean-cache=`~/your_download_path/osx_cache_clean/osxcc.sh`
+```
+zshrc:
+```bash
+    alias clean-cache="~/your_download_path/osx_cache_clean/osxcc.sh"
+```
+
+4. Run the script
+
+Without alias
+```bash
+    ./osxcc.sh
+```
+With alias
+```bash
+    clean-cache
+````
+
+- Use example
+
+    ![Run-Forest](./images/03.png)
