@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-## v0.2.0
+## v0.3.0
 
 - Simplify installation method
 - Fix bash errors on _osxcc.sh_ script
