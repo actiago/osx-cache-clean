@@ -2,12 +2,12 @@
 
 ## Unreleased
 
-## v0.2.0 04/18/2019
+## v0.3.0
 
-- Installer added
-- Documentation revised
+- Simplify installation method
+- Fix bash errors on _osxcc.sh_ script
 
-## v0.1.0 04/17/2019
+## v0.1.0
 
 - Documentation added
 - Project patterns added
