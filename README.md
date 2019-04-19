@@ -1,38 +1,30 @@
 # Simple OSX Cache Clean
 
-## How to use
+## Getting Started
 
-Clone this repository.
+### Prerequisites
 
-```bash
-    git clone git@github.com:cegohub/osx_cache_clean.git
+* Unix-like operating system (macOS or Linux)
+* `curl` or `wget` should be installed
+* `git` should be installed
+
+### Basic Installation
+
+Simple OSX Cache Clean is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl` or `wget`.
+
+#### via curl
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/cegohub/osx-cache-clean/master/install.sh)"
 ```
 
-Browse to `osx_cache_clean` directory.
+#### via wget
 
-```bash
-    cd osx_cache_clean
+```shell
+sh -c "$(wget https://raw.githubusercontent.com/cegohub/osx-cache-clean/master/install.sh -O -)"
 ```
 
-Add execution permission to `install.sh` file
-
-```bash
-    chmod +x install.sh
-```
-
-Run the script to install
-
-```bash
-    ./install.sh -i
-```
-
-Get the help menu for more options
-
-```bash
-    ./install.sh -h
-```
-
-## Use example
+## Usage example
 
 - Install
 
