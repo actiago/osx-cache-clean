@@ -14,30 +14,29 @@ Simple OSX Cache Clean is installed by running one of the following commands in 
 
 #### via curl
 
-```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/cegohub/osx-cache-clean/master/install.sh)"
+```bash
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/cegohub/osx-cache-clean/master/install.sh)"
 ```
 
 #### via wget
 
-```shell
-sh -c "$(wget https://raw.githubusercontent.com/cegohub/osx-cache-clean/master/install.sh -O -)"
+```bash
+    sh -c "$(wget https://raw.githubusercontent.com/cegohub/osx-cache-clean/master/install.sh -O -)"
 ```
 
 ## Usage example
 
-- Install
+* Install
 
     ![Install](./images/install.png)
 
-- Run
+* Run
 
     ![Run-Forest](./images/run.png)
 
 ## Features for next version
 
-- _Check for updates_ command
-- _Update_ command
+* New cache files and folders to clean
 
 ## License
 
