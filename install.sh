@@ -4,7 +4,7 @@
 #
 
 echo "Downloading the Simple OSX Cache Clean"
-curl -o osxcc https://raw.githubusercontent.com/cegohub/osx_cache_clean/master/osxcc.sh 2>/dev/null
+curl -o osxcc https://raw.githubusercontent.com/actiago/osx_cache_clean/master/osxcc.sh 2>/dev/null
 echo "Starting Simple OSX Cache Clean installation"
 sleep 1
 chmod +x osxcc

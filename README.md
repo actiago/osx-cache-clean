@@ -15,13 +15,13 @@ Simple OSX Cache Clean is installed by running one of the following commands in 
 #### via curl
 
 ```bash
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/cegohub/osx-cache-clean/master/install.sh)"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/actiago/osx-cache-clean/master/install.sh)"
 ```
 
 #### via wget
 
 ```bash
-    sh -c "$(wget https://raw.githubusercontent.com/cegohub/osx-cache-clean/master/install.sh -O -)"
+    sh -c "$(wget https://raw.githubusercontent.com/actiago/osx-cache-clean/master/install.sh -O -)"
 ```
 
 ## Usage example
