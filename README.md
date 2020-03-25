@@ -4,7 +4,6 @@
 
 ### Prerequisites
 
-* Unix-like operating system (macOS or Linux)
 * `curl` or `wget` should be installed
 * `git` should be installed
 
