@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Author Tiago Amaral https://github.com/cegohub
+# Author Tiago Amaral https://github.com/actiago
 
 # Vars
 CacheSize="$(du -hsc ~/Library/Caches | awk 'NR==1{print $1}')"
@@ -15,7 +15,6 @@ o-o o-o \ /      o-o  oo  o-o O--o o-o      o-o | o-o  oo o-o
 | |  \   o      |    | | |    |  | |-'     |    | |-' | | |  |
 o-o o-o / \      o-o o-o- o-o o  o o-o      o-o o o-o o-o-o  o
 "
-
 
 echo "* Verifying files in apps cache directory"
 echo " "
