@@ -14,6 +14,8 @@ echo "
 o-o o-o \ /      o-o  oo  o-o O--o o-o      o-o | o-o  oo o-o
 | |  \   o      |    | | |    |  | |-'     |    | |-' | | |  |
 o-o o-o / \      o-o o-o- o-o o  o o-o      o-o o o-o o-o-o  o
+
+version 0.3.0
 "
 
 echo "* Verifying files in apps cache directory"
